@@ -1,0 +1,34 @@
+body {}
+
+/* Шапка сайта */
+
+.header {}
+
+.logo-link {
+    color: #0000ff;
+}
+
+.logo-header {
+    color: #000000;
+}
+
+
+/* Навигация по сайту */
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #0000ff
+}
+
+
+
+/* Контакты в шапке */
+
+.contacts a {}
+
+.contacts-link {}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #0000ff
+}

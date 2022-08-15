@@ -1,16 +1,5 @@
-/* цвет основного текста #212121  */
-/* вторичный цвет текста #757575  */
-/* цвет фона майна #2F303A */
-/* цвет кнопки "Студия"  #2196F3 */
-/* цвет логотипа шапки "WebStudio" - #2196F3 - #000000 */
-/* цвет логотипа подвала "WebStudio" - #2196F3 - #FFFFFF */
-/* цвет фона #FFFFFF */
-/* вторичный цвет фона #F5F4FA */
-/* цвет фона подвала #2F303A */
-
 body {
-    /* background:#ffffff; */
-    color: #2F303A;
+    background:#ffffff;
 }
 
 .list {
@@ -36,11 +25,9 @@ body {
 
 .link {
     text-decoration: none;
+
 }
 
-nav-link {
-    color: #757575;
-}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -50,13 +37,36 @@ nav-link {
 
 /* Контакты в шапке */
 
-.contacts-link {
+.contacts-color {
+    color: #757575;
+    text-decoration: none;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
     color: #0000ff;
+}
+
+.list {
+    list-style: none;
 }
 
 /* Главная страница */
 
 /* Описание с постами */
+
+.our-team .sub-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.our-team .text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
 
 /* Наши проекты */
 

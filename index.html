@@ -5,60 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GitHub</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-
       <nav>
         <a class="logo-link" href="/index.html">Web<span class="logo-header">Studio</span></a>
-        
+
         <!-- Навигация по сайту -->
-        <ul  class="nav">
+        <ul class="nav">
           <li><a href="" class="nav-link">Студія</a></li>
-          <li><a href="" >Портфоліо</a></li>
-          <li><a href="" >Контакти</a></li>
+          <li><a href="">Портфоліо</a></li>
+          <li><a href="">Контакти</a></li>
         </ul>
       </nav>
-
+      <!-- Контакты в шапке -->
       <ul class="contacts">
         <li>
-          <!-- Контакты в шапке -->
           <a href="mailto:info@devstudio.com" class="contacts-link">mailto:info@devstudio.com</a>
         </li>
-        <li><a href="tel:+380961111111">+380961111111</a></li>
+        <li>
+          <a href="tel:+380961111111">+380961111111</a>
+        </li>
       </ul>
     </header>
-    
+    <!-- Главная страница -->
     <main>
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <input type="button" value="Замовити послугу" />
+      <section class="main">
+        <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
+        <input class="mani-button" type="button" value="Замовити послугу" />
       </section>
-
-      <section>
-        <h2>Выбирайте Кращих</h2>
+      <!-- Описание с постами -->
+      <section class="post">
+        <h2 class="post-title">Выбирайте Кращих</h2>
         <ul>
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p> Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. </p>
+            <h3 class="sub-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="text-title">
+              Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+            </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p> Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. </p>
+            <h3 class="sub-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="text-title">
+              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+            </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p> Так само консультація з широким активом значною мірою зумовлює. </p>
+            <h3 class="sub-title">ПЛАНУВАННЯ</h3>
+            <p class="text-title">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p> Значимість цих проблем настільки очевидна, що реалізація планових завдань. </p>
+            <h3 class="sub-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="text-title">
+              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+            </p>
           </li>
         </ul>
       </section>
-
+      <!-- Наши проекты -->
       <section>
         <h2>Чим ми займаємося</h2>
         <ul>
@@ -74,39 +82,43 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Наша команда</h2>
+      <!-- Фото нашей команды -->
+      <section class="team">
+        <h2 class="team-title">Наша команда</h2>
         <ul>
           <li>
-            <img src="./teamcard/img1.jpg" width="270" alt="Ігор Дем'яненко" />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <img class="team-link" src="./teamcard/img1.jpg" width="270" alt="Ігор Дем'яненко" />
+            <h3 class="team-name">Ігор Дем'яненко</h3>
+            <p class="team-worked">Product Designer</p>
           </li>
 
           <li>
-            <img src="./teamcard/img2.jpg" width="270" alt="Ольга Рєпіна" />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <img class="team-link" src="./teamcard/img2.jpg" width="270" alt="Ольга Рєпіна" />
+            <h3 class="team-name">Ольга Рєпіна</h3>
+            <p class="team-worked">Frontend Developer</p>
           </li>
 
           <li>
-            <img src="./teamcard/img3.jpg" width="270" alt="Микола Тарасов" />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <img class="team-link" src="./teamcard/img3.jpg" width="270" alt="Микола Тарасов" />
+            <h3 class="team-name">Микола Тарасов</h3>
+            <p class="team-worked">Marketing</p>
           </li>
 
           <li>
-            <img src="./teamcard/img4.jpg" width="270" alt="Михайло Єрмаков" />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <img class="team-link" src="./teamcard/img4.jpg" width="270" alt="Михайло Єрмаков" />
+            <h3 class="team-name">Михайло Єрмаков</h3>
+            <p class="team-worked">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="">WebStudio</a>
+    <!-- Подвал -->
+    <footer class="footer">
+      <!-- Лого подвала -->
+      <a class="link-logo" href="">WebStudio</a>
 
+      <!-- Контакты подвала -->
       <address>
         <ul>
           <li>

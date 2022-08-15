@@ -1,54 +1,47 @@
 body {
-    background:#ffffff;
+  background: #ffffff;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 /* Шапка сайта */
 
-
-
 .logo-link {
-    color: #2196F3;
-    text-decoration: none;
+  color: #2196f3;
+  text-decoration: none;
 }
 
 .logo-header {
-    color: #000000;
+  color: #000000;
 }
-
-
 
 /* Навигация по сайту */
 
-.link {
-    text-decoration: none;
-
-}
-
-
 .nav-link:hover,
 .nav-link:focus {
-    color: #0000ff;
+  color: #0000ff;
+}
 
+.link {
+  text-decoration: none;
 }
 
 /* Контакты в шапке */
 
 .contacts-color {
-    color: #757575;
-    text-decoration: none;
+  color: #757575;
+  text-decoration: none;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #0000ff;
+  color: #0000ff;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 /* Главная страница */
@@ -56,16 +49,16 @@ body {
 /* Описание с постами */
 
 .our-team .sub-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .our-team .text {
-    color: var(--secondary-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 /* Наши проекты */

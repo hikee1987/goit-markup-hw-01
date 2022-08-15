@@ -13,7 +13,7 @@ body {
     color: #2F303A;
 }
 
-ul {
+.list {
     list-style: none;
 }
 
@@ -23,6 +23,7 @@ ul {
 
 .logo-link {
     color: #2196F3;
+    text-decoration: none;
 }
 
 .logo-header {
@@ -30,7 +31,12 @@ ul {
 }
 
 
+
 /* Навигация по сайту */
+
+.link {
+    text-decoration: none;
+}
 
 nav-link {
     color: #757575;
@@ -38,17 +44,14 @@ nav-link {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #0000ff
+    color: #0000ff;
+
 }
-
-
 
 /* Контакты в шапке */
 
-
-.contacts-link:hover,
-.contacts-link:focus {
-    color: #0000ff
+.contacts-link {
+    color: #0000ff;
 }
 
 /* Главная страница */

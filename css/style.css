@@ -48,19 +48,6 @@ body {
 
 /* Описание с постами */
 
-.our-team .sub-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-}
-
-.our-team .text {
-  color: var(--secondary-text-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-}
-
 /* Наши проекты */
 
 /* Фото нашей команды  */

@@ -1,11 +1,28 @@
-body {}
+/* цвет основного текста #212121  */
+/* вторичный цвет текста #757575  */
+/* цвет фона майна #2F303A */
+/* цвет кнопки "Студия"  #2196F3 */
+/* цвет логотипа шапки "WebStudio" - #2196F3 - #000000 */
+/* цвет логотипа подвала "WebStudio" - #2196F3 - #FFFFFF */
+/* цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона подвала #2F303A */
+
+body {
+    /* background:#ffffff; */
+    color: #2F303A;
+}
+
+ul {
+    list-style: none;
+}
 
 /* Шапка сайта */
 
-.header {}
+
 
 .logo-link {
-    color: #0000ff;
+    color: #2196F3;
 }
 
 .logo-header {
@@ -14,6 +31,10 @@ body {}
 
 
 /* Навигация по сайту */
+
+nav-link {
+    color: #757575;
+}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -24,9 +45,6 @@ body {}
 
 /* Контакты в шапке */
 
-.contacts a {}
-
-.contacts-link {}
 
 .contacts-link:hover,
 .contacts-link:focus {
@@ -43,7 +61,18 @@ body {}
 /* Фото нашей команды  */
 
 /* Подвал */
+/* .footer {
+    background: #2F303A;
+} */
 
 /* Лого подвала */
+/* .link-logo {
+    color: #ffffff;
+}
+
+.logo-footer {
+    color: #2196F3;
+    
+}
 
 /* Контакты подвала */

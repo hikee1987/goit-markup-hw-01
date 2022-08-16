@@ -1,5 +1,6 @@
 body {
-  background: #ffffff;
+font-family: 'Roboto', 'sans-serif';
+
 }
 
 .list {
@@ -19,41 +20,80 @@ body {
 
 /* Навигация по сайту */
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #0000ff;
+.navi .link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        
 }
 
-.link {
-  text-decoration: none;
+
+.navi .link:hover,
+.navi .link:focus {
+  color: #2196F3;
 }
+
 
 /* Контакты в шапке */
 
-.contacts-color {
+.contacts-color,
+.contacts-link {
   color: #757575;
   text-decoration: none;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #0000ff;
-}
-
-.list {
-  list-style: none;
+  color: #2196F3;
 }
 
 /* Главная страница */
 
+.main {}
+
+.main-title {}
+
+.mani-button {}
+
 /* Описание с постами */
+.post {}
+
+.post-title {}
+
+.list {}
+
+.sub-title {}
+
+.text-title {}
 
 /* Наши проекты */
 
+.project {}
+
+.project-title {}
+
+.list {}
+
 /* Фото нашей команды  */
+
+.team {}
+
+.team-title {}
+
+.list {}
+
+.team-link {}
+
+.team-name {}
+
+.team-worked {}
 
 /* Подвал */
 
 /* Лого подвала */
 
 /* Контакты подвала */
+
